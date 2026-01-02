@@ -1,0 +1,26 @@
+[theme]
+# Color principal para botones, sliders y elementos interactivos
+primaryColor = "#7d33ff"
+
+# Color de fondo principal (un gris muy oscuro, casi negro)
+backgroundColor = "#0e1117"
+
+# Color de fondo de la barra lateral (un gris ligeramente más claro)
+secondaryBackgroundColor = "#1c1f26"
+
+# Color del texto principal
+textColor = "#fafafa"
+
+# Fuente del texto (puedes usar "sans serif", "serif", o "monospace")
+font = "sans serif"
+
+[server]
+# Esto elimina el menú de la derecha y el pie de página "Made with Streamlit"
+# para un look más limpio y profesional
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+# Quita la opción de "reun" automático en la esquina superior para que no estorbe
+gatherUsageStats = false
